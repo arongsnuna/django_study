@@ -1,0 +1,27 @@
+<form class="user" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <input type="text" name="username"  id="username"
+            placeholder="Enter Your ID">
+    </div>
+    <div>
+        <div>
+            <input type="password" name="password" 
+                id="password" placeholder="Password">
+        </div>
+        <div>
+            <input type="password" name="repeat" 
+                id="exampleRepeatPassword" placeholder="Repeat Password">
+        </div>
+    </div>
+    <div>
+        <input type="text" name="height" id="username"
+            placeholder="Enter Your ID">
+    </div>
+    <br/>
+    <br/>
+    <input type="submit" class="btn btn-success btn-user btn-block" value="회원가입">
+
+    <hr>
+    
+</form>

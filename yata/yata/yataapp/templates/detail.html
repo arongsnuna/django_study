@@ -1,0 +1,13 @@
+{{ room_detail.address}}<br/>
+{{ room_detail.getDate}}<br/>
+{{ room_detail.getTime}}<br/>
+{{ room_detail.getDate}}<br/>
+{{ room_detail.member}}<br/>
+{{ room_detail.location}}<br/>
+{{ room_detail.captain}}<br/>
+<!-- 이미지 보여주기 -->
+{% if post_detail.photo %}
+    <img src = "{{ post_detail.photo.url }}" alt="" height="600">
+<br>
+{% endif %}
+<br/><hr/>
